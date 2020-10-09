@@ -1,6 +1,6 @@
 function [ChargingCapacity,DischargingCapacity]=ExtractCapacity(BatteryFileName,ChargingCapacityInput,DischargingCapacityInput)
 % This script takes the cycler reports in .txt format and extracts the maximum accessed
-% capacity on all charge steps and discharging steps and saves them into
+% arge steps and discharging steps and saves them into
 % two different matricies
 %% Reads the text file and outputs as a single cell array​
 FullBatteryRead=textread(BatteryFileName,'%s');
